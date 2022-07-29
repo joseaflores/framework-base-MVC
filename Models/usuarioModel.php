@@ -5,7 +5,7 @@ class homeModel
 
     function __construct()
     {
-        echo "hola desde el modelo home";
+        echo "hola desde el modelousuario";
     }
 }
 

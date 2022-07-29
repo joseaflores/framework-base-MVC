@@ -1,5 +1,9 @@
 <?php 
 
+/* 
+    Clase maestra para cargar las vstas llamadas desde el controlador 
+*/
+
 class Views
 {
     function __construct()

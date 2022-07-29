@@ -1,4 +1,13 @@
 <?php
+/* 
+
+    Este pequeño script comprueba si existen el controlador y el metodo y si no
+    redirecciona a la pagina erro404
+
+
+
+*/
+
 
 // load
 // si no se ha especificado controlador ya le he asignado home por defecto

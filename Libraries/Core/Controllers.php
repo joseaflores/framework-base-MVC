@@ -1,4 +1,10 @@
 <?php 
+/* 
+    Este es el controlador primario, desde aquí cargaremos la vista y el modelo correspondiente
+    gracias a el autoload las clases Views y Model se cargarn de forma automatica
+
+*/
+
 
 class Controllers
 {

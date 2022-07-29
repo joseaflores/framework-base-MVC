@@ -1,4 +1,6 @@
-<?php 
+<?php
+
+use LDAP\Result;
 
 class Usuario extends Controllers
 {
@@ -8,13 +10,14 @@ class Usuario extends Controllers
     }
     public function Usuario($args)
     {
-        echo "usuario";
-    }
 
-    public function newUser($args)
-    {
-        echo "estas intentando crear un nuevo user" . $args;
+        $data['page_id'] = 2;
+        $data['page_name'] = 'Dashboar';
+        $data['page_title'] = 'Dashboard';
+        $data['page_tag'] = 'Usuario';
+        
     }
+    
 }
 
 

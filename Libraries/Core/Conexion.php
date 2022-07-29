@@ -1,13 +1,16 @@
 <?php
 
+/* 
+  Esta clase realiza la conexion a la base de datos, los parametros de conexión 
+  fueron definidos en el config.php como constantes
+  Devuelve la conexión o un mensaje con el tipo de error 
+
+*/
+
 class Conexion
 {
-    private $host = "localhost";
-    private $user = "root";
-    private $pass = "";
-    private $db = "fbdb";
     private $conect;
-
+    
     function __construct()
     {
         $conectionString = "mysql:host=" . DB_HOST . ";dbname=" . DB_NAME . ";" . DB_CHARSET;
