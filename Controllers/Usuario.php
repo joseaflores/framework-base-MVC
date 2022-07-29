@@ -6,7 +6,7 @@ class Usuario extends Controllers
 {
     function __construct()
     {
-        
+        parent::__construct();
     }
     public function Usuario($args)
     {
