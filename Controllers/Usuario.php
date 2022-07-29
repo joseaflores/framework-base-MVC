@@ -15,6 +15,7 @@ class Usuario extends Controllers
         $data['page_name'] = 'Dashboar';
         $data['page_title'] = 'Dashboard';
         $data['page_tag'] = 'Usuario';
+        echo token();
         
     }
     

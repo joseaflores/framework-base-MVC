@@ -1,6 +1,7 @@
 <?php 
 
  require_once("Config/Config.php");
+ require_once("Helpers/Helpers.php");
 
 
  // enviar al controlador home por defecto si la url está vacía si no está vacia tomará los datos de controlador y metodos que hayamos introducido

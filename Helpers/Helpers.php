@@ -59,6 +59,16 @@ function passGenerator($length = 10){
     }
     return $pass;
 }
+// Generar un token para recuperar contraseñas por ejemplo
+function token(){{
+    $sr1 = bin2hex(random_bytes(10));
+    $sr2 = bin2hex(random_bytes(10));
+    $sr3 = bin2hex(random_bytes(10));
+    $sr4 = bin2hex(random_bytes(10));
+    $token = $sr1 . '-' . $sr2 . '-' . $sr3 . '-' . $sr4;
+    return $token;
+
+}}
 //formato para valores monetarios
 // notación inglesa sin separador de millares 1234.79
 function formatmoney($cantidad){
