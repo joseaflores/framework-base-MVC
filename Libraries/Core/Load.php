@@ -11,6 +11,7 @@
 
 // load
 // si no se ha especificado controlador ya le he asignado home por defecto
+$controller = ucwords($controller); // pongo la primera en mayusculas porque algunos servidores no reconoceran la mayuscula
 $controllerfile = "Controllers/" . $controller . ".php";
 
 if (file_exists($controllerfile)) //si existe el archivo que le llega por url
